@@ -12,3 +12,4 @@
 /Users/deblin/Personal Coding Projects/C# Practice/practice/obj/Debug/net10.0/practice.pdb
 /Users/deblin/Personal Coding Projects/C# Practice/practice/obj/Debug/net10.0/practice.genruntimeconfig.cache
 /Users/deblin/Personal Coding Projects/C# Practice/practice/obj/Debug/net10.0/ref/practice.dll
+/Users/deblin/Personal Coding Projects/C# Practice/practice/obj/Debug/net10.0/practice.sourcelink.json
