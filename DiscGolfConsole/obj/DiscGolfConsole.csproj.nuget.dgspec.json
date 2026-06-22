@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/deblin/Personal Coding Projects/C# Practice/DiscGolfConsole/DiscGolfConsole.csproj": {}
+    "C:\\Coding\\C-_Practice_Projects\\DiscGolfConsole\\DiscGolfConsole.csproj": {}
   },
   "projects": {
-    "/Users/deblin/Personal Coding Projects/C# Practice/DiscGolfConsole/DiscGolfConsole.csproj": {
+    "C:\\Coding\\C-_Practice_Projects\\DiscGolfConsole\\DiscGolfConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/deblin/Personal Coding Projects/C# Practice/DiscGolfConsole/DiscGolfConsole.csproj",
+        "projectUniqueName": "C:\\Coding\\C-_Practice_Projects\\DiscGolfConsole\\DiscGolfConsole.csproj",
         "projectName": "DiscGolfConsole",
-        "projectPath": "/Users/deblin/Personal Coding Projects/C# Practice/DiscGolfConsole/DiscGolfConsole.csproj",
-        "packagesPath": "/Users/deblin/.nuget/packages/",
-        "outputPath": "/Users/deblin/Personal Coding Projects/C# Practice/DiscGolfConsole/obj/",
+        "projectPath": "C:\\Coding\\C-_Practice_Projects\\DiscGolfConsole\\DiscGolfConsole.csproj",
+        "packagesPath": "C:\\Users\\xboxr\\.nuget\\packages\\",
+        "outputPath": "C:\\Coding\\C-_Practice_Projects\\DiscGolfConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/deblin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\xboxr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

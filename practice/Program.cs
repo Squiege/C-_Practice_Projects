@@ -157,3 +157,33 @@ main();
 */
 
 
+/*   LOOPS  */
+
+static void DiscMenu()
+{
+
+    Console.WriteLine("1. Add Disc");
+    Console.WriteLine("2. Remove Disc");
+    Console.WriteLine("3. Exit");
+}
+
+bool running = true;
+while (running == true)
+{
+    DiscMenu();
+    string? input = Console.ReadLine();
+    if  (input == "1")
+    {
+        Console.WriteLine("What disc would you like to add?");
+        string? discToAdd = Console.ReadLine();
+    }
+    else if (input == "2")
+    {
+        Console.WriteLine("What disc would you like to remove?");
+        string? discToRemove = Console.ReadLine();
+    }
+    else if (input == "3")
+    {
+        running = false;
+    }
+}
