@@ -167,15 +167,29 @@ static void DiscMenu()
     Console.WriteLine("3. Exit");
 }
 
+static void DiscCount()
+{
+    for (int i = 1; i <= 5; i++)
+    {
+        Console.WriteLine(i);
+    }
+}
+
 bool running = true;
 while (running == true)
 {
+    List<string> discs = new List<string>();
     DiscMenu();
     string? input = Console.ReadLine();
-    if  (input == "1")
+    if (input == "1")
     {
         Console.WriteLine("What disc would you like to add?");
         string? discToAdd = Console.ReadLine();
+        discs.Add(discToAdd);
+        foreach (string disc in discs)
+        {
+            Console.WriteLine(disc);
+        }
     }
     else if (input == "2")
     {
@@ -186,4 +200,6 @@ while (running == true)
     {
         running = false;
     }
+
+    DiscCount();
 }
