@@ -178,7 +178,7 @@ static void DiscCount()
 bool running = true;
 while (running == true)
 {
-    List<string> discs = new List<string>();
+    List<string> discs = [];
     DiscMenu();
     string? input = Console.ReadLine();
     if (input == "1")
@@ -195,6 +195,11 @@ while (running == true)
     {
         Console.WriteLine("What disc would you like to remove?");
         string? discToRemove = Console.ReadLine();
+        bool discInList = discs.Contains(discToRemove);
+        if (discInList)
+        {
+            
+        }
     }
     else if (input == "3")
     {
